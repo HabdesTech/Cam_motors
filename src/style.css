@@ -106,11 +106,10 @@
     .central_telefonica_iconos div {
         display: none;
     }
-    .banner_datos_contacto{
+    .banner_datos_contacto {
         margin-left: -1%;
     }
 }
-
 
 .borde {
     border: 1px solid red;
@@ -118,29 +117,46 @@
 
 /*----------------------SWIPERJS--------------------------*/
 
-html,
-body {
-  position: relative;
-  height: 100%;
+html, body {
+    position: relative;
+    height: 100%;
 }
 
 body {
-  background: #000;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
+
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
-  overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
+
 
 /*----------------------WP_BUTTON--------------------------*/
 
